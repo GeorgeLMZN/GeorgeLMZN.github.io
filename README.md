@@ -1,4 +1,4 @@
-# weather_widget_v3
+# weather_widget
 
 ## Project setup
 ```
