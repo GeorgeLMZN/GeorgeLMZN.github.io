@@ -1,22 +1,16 @@
 /* eslint-disable camelcase */
 export interface WeatherDataI {
     id: number;
-    weather: string;
-    temp: string;
-    icon_url: string;
     city: string;
-    feels_like: number;
-    grnd_level: number;
-    humidity: number;
-    pressure: number;
-    sea_level: number;
-    temp_max: number;
-    temp_min: number;
-    wind_deg: number;
-    wind_gust: number;
-    wind_speed: number;
-    visibility: number;
     country: string;
+    weather: string;
+    icon_url: string;
+    temp: string;
+    feels_like: string;
+    wind_speed: string;
+    pressure: string;
+    humidity: string;
+    visibility: string;
 }
 
 export interface WeatherOrderInfoI {

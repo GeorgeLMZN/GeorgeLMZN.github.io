@@ -27,7 +27,6 @@
           :src="vWeather.icon_url"
           alt="Weather icon"
         />
-
         <span class="weather-widget_temp">{{ vWeather.temp }}°С</span>
       </div>
 
