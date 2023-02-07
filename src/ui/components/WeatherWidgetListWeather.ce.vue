@@ -1,7 +1,7 @@
 <template>
   <div
     :class="{
-      'd-none': isCityListOpen || (isEmptyCitiesList && !isCityListOpen),
+      'd-none': isCityListOpen,
     }"
     class="weather-widget"
   >
@@ -91,11 +91,6 @@ export default defineComponent({
       required: true,
     },
     isCityListOpen: {
-      type: Boolean,
-      required: true,
-      default: false,
-    },
-    isEmptyCitiesList: {
       type: Boolean,
       required: true,
       default: false,

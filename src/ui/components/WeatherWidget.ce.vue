@@ -7,7 +7,6 @@
 
     <weather-widget-list-weather
       v-if="!isEmptyCitiesList"
-      :isEmptyCitiesList="isEmptyCitiesList"
       :isCityListOpen="isCityListOpen"
       :ixWeather="ixWeather"
       @on-open-cities-list="fCitiesListVisibilityChange"
