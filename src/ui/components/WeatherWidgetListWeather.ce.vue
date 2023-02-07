@@ -72,8 +72,8 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
-import { btnOpenBg, pressureBgIcon } from "@/icons_data/ui_icons";
-import { WeatherDataIxI } from "@/interface/WeatherDataI";
+import { btnOpenBg, pressureBgIcon } from "@/app/service/DownloadUiIonsS";
+import { WeatherDataIxI } from "@/app/interface/WeatherDataI";
 
 export default defineComponent({
   name: "WeatherWidgetListWeather",

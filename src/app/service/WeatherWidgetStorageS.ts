@@ -1,5 +1,5 @@
 /* eslint-disable class-methods-use-this */
-import { WeatherDataI } from '@/interface/WeatherDataI';
+import { WeatherDataI } from '../interface/WeatherDataI';
 
 export default class WeatherWidgetStorageS {
   storageKey: string = process.env.VUE_APP_STORAGE_KEY;

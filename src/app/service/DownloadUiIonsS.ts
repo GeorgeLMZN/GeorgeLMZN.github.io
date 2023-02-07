@@ -1,18 +1,24 @@
 import { WeatherIconsI } from '../interface/WeatherIconsI';
 
 /* eslint-disable @typescript-eslint/no-var-requires */
-const thunderStormLightRain: string = require('@/assets/icons/weather/thunderStormLightRain.svg');
-const thunderStormLight: string = require('@/assets/icons/weather/thunderStormLight.svg');
-const thunderStorm: string = require('@/assets/icons/weather/thunderStorm.svg');
-const drizzle: string = require('@/assets/icons/weather/drizzle.svg');
-const lightRain: string = require('@/assets/icons/weather/lightRain.svg');
-const rain: string = require('@/assets/icons/weather/lightRain.svg');
-const snow: string = require('@/assets/icons/weather/lightRain.svg');
-const fog: string = require('@/assets/icons/weather/fog.svg');
-const clear: string = require('@/assets/icons/weather/clear.svg');
-const fewCLouds: string = require('@/assets/icons/weather/fewClouds.svg');
-const clouds: string = require('@/assets/icons/weather/fewClouds.svg');
-const brokenClouds: string = require('@/assets/icons/weather/brokenClouds.svg');
+const thunderStormLightRain: string = require('../icons/thunderStormLightRain.svg');
+const thunderStormLight: string = require('../icons/thunderStormLight.svg');
+const thunderStorm: string = require('../icons/thunderStorm.svg');
+const drizzle: string = require('../icons/drizzle.svg');
+const lightRain: string = require('../icons/lightRain.svg');
+const rain: string = require('../icons/lightRain.svg');
+const snow: string = require('../icons/lightRain.svg');
+const fog: string = require('../icons/fog.svg');
+const clear: string = require('../icons/clear.svg');
+const fewCLouds: string = require('../icons/fewClouds.svg');
+const clouds: string = require('../icons/fewClouds.svg');
+const brokenClouds: string = require('../icons/brokenClouds.svg');
+const pressureBgIcon = require('../icons/pressure.svg');
+const btnEnterBg = require('../icons/enter.svg');
+const btnOpenBg = require('../icons/gear.svg');
+const btnCloseBg = require('../icons/close.svg');
+const btnTrashBg = require('../icons/trash.svg');
+
 
 const WeatherIcons: WeatherIconsI = {
   200: { name: 'Thunderstorm thunderstorm with light rain', icon: thunderStormLightRain },
@@ -72,4 +78,4 @@ const WeatherIcons: WeatherIconsI = {
   804: { name: 'Clouds', icon: clouds },
 };
 
-export default WeatherIcons;
+export { pressureBgIcon, btnEnterBg, btnCloseBg, btnOpenBg, btnTrashBg, WeatherIcons };

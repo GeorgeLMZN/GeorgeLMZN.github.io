@@ -26,7 +26,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { WeatherDataI, WeatherOrderInfoI } from '@/interface/WeatherDataI';
+import { WeatherDataI, WeatherOrderInfoI } from '@/app/interface/WeatherDataI';
 import { weatherWidget as ctrl } from '@/app/WeatherWidgetApp';
 import WeatherWidgetListWeather from './WeatherWidgetListWeather.ce.vue';
 import WeatherWidgetListCity from './WeatherWidgetListCity.ce.vue';

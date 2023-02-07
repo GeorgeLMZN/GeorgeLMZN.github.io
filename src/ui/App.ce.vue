@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import WeatherWidget from './WeatherWidget.ce.vue';
+import WeatherWidget from './components/WeatherWidget.ce.vue';
 
 export default defineComponent({
   name: 'App',
@@ -14,4 +14,4 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss" src="@/assets/styles/styles.scss"></style>
+<style lang="scss" src="./styles/styles.scss"></style>

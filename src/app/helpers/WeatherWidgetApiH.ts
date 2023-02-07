@@ -1,5 +1,5 @@
-import WeatherIcons from '@/icons_data/weather_icons';
-import { WeatherDataI } from '@/interface/WeatherDataI';
+import { WeatherIcons } from '../service/DownloadUiIonsS';
+import { WeatherDataI } from '../interface/WeatherDataI';
 
 export async function faRequestDataFromURL(url: string) {
   const response = await (await fetch(url)).json();

@@ -1,5 +1,5 @@
 /* eslint-disable class-methods-use-this */
-import { LocationI } from '@/interface/LocationI';
+import { LocationI } from '../interface/LocationI';
 
 export default class WeatherWidgetLocationS {
   getCurrentLocation(): Promise<LocationI> {

@@ -1,6 +1,6 @@
 /* eslint-disable class-methods-use-this */
-import { LocationI } from '@/interface/LocationI';
-import { faRequestDataFromURL, fParseRawData } from '@/helpers/WeatherWidgetApiH';
+import { LocationI } from '../interface/LocationI';
+import { faRequestDataFromURL, fParseRawData } from '../helpers/WeatherWidgetApiH';
 import { WeatherDataI } from '../interface/WeatherDataI';
 
 export default class WeatherWidgetApiS {

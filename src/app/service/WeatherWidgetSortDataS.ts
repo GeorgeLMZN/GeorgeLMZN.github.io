@@ -1,5 +1,5 @@
 /* eslint-disable class-methods-use-this */
-import { WeatherDataI, WeatherOrderInfoI } from '@/interface/WeatherDataI';
+import { WeatherDataI, WeatherOrderInfoI } from '../interface/WeatherDataI';
 
 export default class WeatherWidgetSortDataS {
   sortIxItemsByOrder(

@@ -55,8 +55,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { btnCloseBg, btnEnterBg, btnTrashBg } from '@/icons_data/ui_icons'
-import { WeatherDataI, WeatherOrderInfoI } from '@/interface/WeatherDataI';
+import { btnCloseBg, btnEnterBg, btnTrashBg } from '@/app/service/DownloadUiIonsS';
+import { WeatherDataI, WeatherOrderInfoI } from '@/app/interface/WeatherDataI';
 
 export default defineComponent({
   name: 'WeatherWidgetListCity',

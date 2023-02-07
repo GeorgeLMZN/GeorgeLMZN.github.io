@@ -1,9 +1,9 @@
-import { LocationI } from '@/interface/LocationI';
-import { WeatherDataI, WeatherOrderInfoI } from '@/interface/WeatherDataI';
-import WeatherWidgetApiS from '@/service/WeatherWidgetApiS';
-import WeatherWidgetLocationS from '@/service/WeatherWidgetLocationS';
-import WeatherWidgetStorageS from '@/service/WeatherWidgetStorageS';
-import WeatherWidgetSortDataS from '@/service/WeatherWidgetSortDataS';
+import { LocationI } from './interface/LocationI';
+import { WeatherDataI, WeatherOrderInfoI } from './interface/WeatherDataI';
+import WeatherWidgetApiS from './service/WeatherWidgetApiS';
+import WeatherWidgetLocationS from './service/WeatherWidgetLocationS';
+import WeatherWidgetStorageS from './service/WeatherWidgetStorageS';
+import WeatherWidgetSortDataS from './service/WeatherWidgetSortDataS';
 
 class WeatherWidget {
     private weatherWidgetSortDataS: WeatherWidgetSortDataS;
